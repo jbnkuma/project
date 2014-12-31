@@ -4,7 +4,7 @@
 # to support templates and languages easier.
 # Copyright (C) Enginx and Liran Tal 2007, 2008
 
-$ChilliSpot="PC Service wireless";
+$ChilliSpot="PC Service";
 $title="$ChilliSpot Iniciar Sesión";
 $centerUsername="Usuario";
 $centerPassword="Contraseña";
@@ -16,8 +16,7 @@ $h1Failed="$ChilliSpot Inicio de sesión  Fallido";
 $h1Loggedin="Conectado a $ChilliSpot";
 $h1Loggingin="Inicio de sesión en $ChilliSpot";
 $h1Loggedout="Desconectado de $ChilliSpot";
-$centerdaemon="Iniciar sesión debe realizarse a través de $ChilliSpot server";
-$centerencrypted="Nombre de usuario debe usar una conexión cifrada";
-
+$centerdaemon="Para iniciar sesión debes conectarte al servidor de $ChilliSpot";
+$centerencrypted="Debes usar una conexión cifrada";
 
 ?>

@@ -29,21 +29,27 @@ echo <<<END
 
 <div id="wrap">
 
-		<div class="header"><p>Hotspot<span>Login</span><sup>
+		<div class="header"><p>PC SERVICE<span></span><sup>
+		   <!--
 			By <a href="http://templatefusion.org">TemplateFusion.org</a></sup></p>
+			-->
 		</div>
-		
+
 	<div id="navigation">
+
 		<ul class="glossymenu">
-			<li><a href="#" class="current"><b>Home</b></a></li>
-			<li><a href="#"><b>Services</b></a></li>	
+			<li><a href="http://pcservicejiqu5.wix.com/promocionespcservice" class="current"><b>PC SERVICE PROMOCIONES</b></a></li>
+			<li><a href="#"><b>PLANES Y CONTACTO</b></a></li>
+			<!--
 			<li><a href="#"><b>About Us</b></a></li>	
-			<li><a href="#"><b>Contact</b></a></li>	
+			<li><a href="#"><b>Contact</b></a></li>
+			-->
 		</ul>
+
 	</div>
 		
 	<div id="body">
-		<h1>Hotspot Login</h1>         
+		<h1></h1>
 		<p>		
 
 END;

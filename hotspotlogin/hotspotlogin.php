@@ -223,6 +223,7 @@ switch($res) {
 /* Otherwise it was not a form request
  * Send out an error message
  */
+//$result = 5;
 if ($result == 0) {
 	include('hotspotlogin-nonchilli.php');
 	exit(0);
@@ -236,7 +237,7 @@ echo "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">
   <title>$title</title>
   <meta http-equiv=\"Cache-control\" content=\"no-cache\">
   <meta http-equiv=\"Pragma\" content=\"no-cache\">
-  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-1\" />
+  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />
   <link href=\"template/css/style.css\" rel=\"stylesheet\" type=\"text/css\" />
   <SCRIPT LANGUAGE=\"JavaScript\">
 	";

@@ -24,7 +24,7 @@
  *
  *********************************************************************************************************
  */
-
+header('Content-Type: text/html; charset=utf8');
 echo "
 <!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">
 <html>
@@ -32,6 +32,7 @@ echo "
 	<title>$title</title>
 	<meta http-equiv=\"Cache-control\" content=\"no-cache\">
 	<meta http-equiv=\"Pragma\" content=\"no-cache\">
+	<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />
 </head>
 
 <body bgColor = '#c0d8f4'>

@@ -27,7 +27,7 @@
 
 
 echo "
-	<form name='form1' method='post' action='$loginpath'>
+	<form name='form1' method='post' action='$loginpath' accept-charset='UTF-8' autocomplete='on'>
 		<input type='hidden' name='challenge' value='$challenge'>
 		<input type='hidden' name='uamip' value='$uamip'>
 		<input type='hidden' name='uamport' value='$uamport'>
@@ -38,16 +38,16 @@ echo "
 		<tbody>
 		<tr>
 			<td align='right'>$centerUsername:</td>
-        		<td><input style='font-family: Arial' type='text' name='UserName' size='20' maxlength='128'></td>
+        		<td><input style='font-family: Arial' type='text' name='UserName' size='20' maxlength='128' required=''></td>
 		</tr>
 
 		<tr>
 		        <td align='right'>$centerPassword:</td>
-		        <td><input style='font-family: Arial' type='password' name='Password' size='20' maxlength='128'></td>
+		        <td><input style='font-family: Arial' type='password' name='Password' size='20' maxlength='128' required=''></td>
       		</tr>
 
 		<tr>
-		        <td align='center' colspan='2' height='23'><input type='submit' name='button' value='Login' 
+		        <td align='center' colspan='2' height='23'><input type='submit' name='button' value='Iniciar sesión'
 				onClick=\"javascript:popUp('$loginpath?res=popup1&uamip=$uamip&uamport=$uamport')\"></td> 
       		</tr>
 

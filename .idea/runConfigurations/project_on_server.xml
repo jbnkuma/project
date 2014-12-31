@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="project on server" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" scope="Directory" path="$PROJECT_DIR$" server_id="4c26b178-a7aa-4973-acb7-844bc073f0ea" server_name="NGINX">
+    <RunnerSettings RunnerId="PhpRunner" />
+    <RunnerSettings RunnerId="PhpUnitRemoteDebugRunner" />
+    <ConfigurationWrapper RunnerId="PhpRunner" />
+    <ConfigurationWrapper RunnerId="PhpUnitRemoteDebugRunner" />
+    <method />
+  </configuration>
+</component>
